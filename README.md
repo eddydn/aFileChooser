@@ -18,9 +18,9 @@ Intents provide the ability to hook into third-party app components for content 
 
 ## Setup
 
-- Add this line to your Gradle (project file)
+- Add this line to your Gradle (project file):
 		maven {url "https://jitpack.io"}
-- Add this line to your Gradle (app file)
+- Add this line to your Gradle (app file):
 		    implementation 'com.github.eddydn:aFileChooser:0.2'
 	
 
