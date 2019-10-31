@@ -18,7 +18,11 @@ Intents provide the ability to hook into third-party app components for content 
 
 ## Setup
 
-Add aFileChooser to your project as an [Android Library Project](http://developer.android.com/guide/developing/projects/projects-eclipse.html#ReferencingLibraryProject).
+- Add this line to your Gradle (project file)
+		maven {url "https://jitpack.io"}
+- Add this line to your Gradle (app file)
+		    implementation 'com.github.eddydn:aFileChooser:0.2'
+	
 
 Add `FileChooserActivity` to your project's AndroidManifest.xml file with a fully-qualified `name`. The `label` and `icon` set here will be shown in the "Intent Chooser" dialog.
 
